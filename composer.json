@@ -1,0 +1,30 @@
+{
+    "name": "ialeroy/laravel-tags",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ialeroy",
+            "email": "ibrohim238@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IAleroy\\Tags\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IAleroy\\Tags\\TagsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "8.1.*",
+        "spatie/laravel-sluggable": "^3.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.6"
+    }
+}
