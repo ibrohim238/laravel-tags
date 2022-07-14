@@ -1,5 +1,7 @@
 <?php
 
+namespace IAleroy\Tags;
+
 use Illuminate\Support\ServiceProvider;
 
 class TagsServiceProvider extends ServiceProvider

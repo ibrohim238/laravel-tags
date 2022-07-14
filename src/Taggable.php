@@ -1,5 +1,7 @@
 <?php
 
+namespace IAleroy\Tags;
+
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Collection;
 
