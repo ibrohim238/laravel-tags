@@ -8,13 +8,13 @@ trait HasTags
 {
     public static function getTagClassName(): string
     {
-        return config('tag.models.tag', Tag::class);
+        return config('tags.models.tag', Tag::class);
     }
 
     public function tags(): MorphToMany
     {
         return $this->morphToMany(
-            config('tag.models.tag'),
+            config('tags.models.tag'),
             'taggable'
         );
     }

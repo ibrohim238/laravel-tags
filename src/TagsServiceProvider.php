@@ -13,7 +13,7 @@ class TagsServiceProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->publishes([
-            __DIR__ . '/../config/tag.php' => config_path('tag.php')
+            __DIR__ . '/../config/tags.php' => config_path('tags.php')
         ], 'config');
         $this->publishes([
             __DIR__.'/../database/migrations/' => database_path('migrations')
@@ -28,7 +28,7 @@ class TagsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/tag.php', 'tag'
+            __DIR__.'/../config/tags.php', 'tags'
         );
     }
 }
