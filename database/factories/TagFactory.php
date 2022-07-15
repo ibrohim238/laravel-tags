@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Factories;
+namespace IAleroy\Tags\Database\Factories;
 
 use IAleroy\Tags\Tag;
 use Illuminate\Database\Eloquent\Factories\Factory;

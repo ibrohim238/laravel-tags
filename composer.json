@@ -10,12 +10,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "IAleroy\\Tags\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Database\\Factories\\": "database/factories/"
+            "IAleroy\\Tags\\": "src/",
+            "IAleroy\\Tags\\Database\\Factories\\": "database/factories/"
         }
     },
     "extra": {
