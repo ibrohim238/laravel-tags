@@ -2,6 +2,7 @@
 
 namespace IAleroy\Tags;
 
+use Database\Factories\TagFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Sluggable\HasSlug;
@@ -17,6 +18,11 @@ class Tag extends Model
         'description',
         'type'
     ];
+
+    protected static function newFactory(): TagFactory
+    {
+        return TagFactory::new();
+    }
 
     public function getSlugOptions() : SlugOptions
     {
