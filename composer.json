@@ -13,6 +13,11 @@
             "IAleroy\\Tags\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Database\\Factories\\": "database/factories/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
