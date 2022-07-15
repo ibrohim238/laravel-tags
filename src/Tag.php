@@ -2,7 +2,7 @@
 
 namespace IAleroy\Tags;
 
-use Database\Factories\TagFactory;
+use IAleroy\Tags\Database\Factories\TagFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Sluggable\HasSlug;
